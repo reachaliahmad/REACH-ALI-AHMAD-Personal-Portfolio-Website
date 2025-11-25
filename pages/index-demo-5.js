@@ -13,20 +13,22 @@ import ContactInfo from "../src/components/sections/ContactInfo";
 import FunFact from "../src/components/sections/FunFact";
 import Pricing from "../src/components/sections/Pricing";
 import Quote from "../src/components/sections/Quote";
-import { ResumeSectionLawyer } from "../src/components/sections/Resume";
+import ResumeSection from "../src/components/sections/Resume";
 import Services from "../src/components/sections/Services";
-import { SkillsLawyer } from "../src/components/sections/Skills";
+import Skills from "../src/components/sections/Skills";
 import Testimonials from "../src/components/sections/Testimonials";
 import Work from "../src/components/Work";
 import ContentContainer from "../src/layout/ContentContainer";
 import Header from "../src/layout/Header";
 import Layout from "../src/layout/Layout";
+
 const RecentWorks = dynamic(
   () => import("../src/components/sections/RecentWorks"),
   {
     ssr: false,
   }
 );
+
 const bio = `<p>
 <strong>Hello! I’m Casandra Wood.</strong><br>
 Lawyer from UK, London. I have licensed by the state in which I practice to advise and represent clients on legal matters including animal rights.
@@ -73,15 +75,12 @@ const Index6 = () => {
       <Header menus={headerMenus} />
       <Home>
         <div className="profile no-photo">
-          {/* profile image */}
           <div
             className="slide"
             style={{ backgroundImage: "url(images/profile5.jpg)" }}
           />
-          {/* profile titles */}
           <div className="title">Casandra Wood</div>
           <div className="subtitle">Lawyer</div>
-          {/* profile socials */}
           <div className="social">
             <a target="_blank" rel="noreferrer" href="https://facebook.com/">
               <span className="fa fa-facebook-f" />
@@ -96,7 +95,6 @@ const Index6 = () => {
               <span className="fa fa-spotify" />
             </a>
           </div>
-          {/* profile buttons */}
           <div className="lnks">
             <a href="#" className="lnk">
               <span className="text">Download CV</span>
@@ -119,8 +117,8 @@ const Index6 = () => {
           <Quote />
         </About>
         <Resume>
-          <ResumeSectionLawyer />
-          <SkillsLawyer />
+          <ResumeSection />
+          <Skills />
           <Testimonials />
         </Resume>
         <Work>

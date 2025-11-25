@@ -13,9 +13,9 @@ import ContactInfo from "../src/components/sections/ContactInfo";
 import FunFact from "../src/components/sections/FunFact";
 import Pricing from "../src/components/sections/Pricing";
 import Quote from "../src/components/sections/Quote";
-import { ResumeSectionLawyer } from "../src/components/sections/Resume";
+import ResumeSection from "../src/components/sections/Resume";
 import Services from "../src/components/sections/Services";
-import { SkillsLawyer } from "../src/components/sections/Skills";
+import Skills from "../src/components/sections/Skills";
 import Testimonials from "../src/components/sections/Testimonials";
 import Work from "../src/components/Work";
 import ContentContainer from "../src/layout/ContentContainer";
@@ -120,8 +120,8 @@ const Index6 = () => {
           <Quote />
         </About>
         <Resume>
-          <ResumeSectionLawyer />
-          <SkillsLawyer />
+          <ResumeSection />
+          <Skills />
           <Testimonials />
         </Resume>
         <Work>

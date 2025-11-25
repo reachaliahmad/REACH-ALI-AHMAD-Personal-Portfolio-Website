@@ -13,9 +13,9 @@ import ContactInfo from "../src/components/sections/ContactInfo";
 import FunFact from "../src/components/sections/FunFact";
 import Pricing from "../src/components/sections/Pricing";
 import Quote from "../src/components/sections/Quote";
-import { ResumeSectionMusician } from "../src/components/sections/Resume";
+import ResumeSection from "../src/components/sections/Resume";
 import Services from "../src/components/sections/Services";
-import { SkillsMusican } from "../src/components/sections/Skills";
+import Skills from "../src/components/sections/Skills";
 import Testimonials from "../src/components/sections/Testimonials";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Work from "../src/components/Work";
@@ -75,17 +75,12 @@ const Index8 = () => {
       <Header menus={headerMenus} animationText={animationText} />
       <Home>
         <div className="profile no-photo">
-          {/* profile image */}
           <div
             className="slide"
             style={{ backgroundImage: "url(images/profile7.jpg)" }}
           />
-          {/* profile titles */}
           <div className="title">Paul Johnson</div>
-          {/*<div className="subtitle">Web Designer</div>*/}
           <TypingAnimation data={animationText} />
-
-          {/* profile socials */}
           <div className="social">
             <a target="_blank" rel="noreferrer" href="https://soundcloud.com/">
               <span className="fa fa-soundcloud" />
@@ -93,11 +88,7 @@ const Index8 = () => {
             <a target="_blank" rel="noreferrer" href="https://bandcamp.com/">
               <span className="fa fa-bandcamp" />
             </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.mixcloud.com/"
-            >
+            <a target="_blank" rel="noreferrer" href="https://www.mixcloud.com/">
               <span className="fa fa-mixcloud" />
             </a>
             <a target="_blank" rel="noreferrer" href="https://twitter.com/">
@@ -107,7 +98,6 @@ const Index8 = () => {
               <span className="fa fa-instagram" />
             </a>
           </div>
-          {/* profile buttons */}
           <div className="lnks">
             <a href="#" className="lnk">
               <span className="text">My Playlist</span>
@@ -130,8 +120,8 @@ const Index8 = () => {
           <Clients />
         </About>
         <Resume>
-          <ResumeSectionMusician />
-          <SkillsMusican />
+          <ResumeSection />
+          <Skills />
           <Testimonials />
         </Resume>
         <Work>

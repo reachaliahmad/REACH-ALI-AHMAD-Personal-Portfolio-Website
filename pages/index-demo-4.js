@@ -13,10 +13,10 @@ import ContactInfo from "../src/components/sections/ContactInfo";
 import FunFact from "../src/components/sections/FunFact";
 import Pricing from "../src/components/sections/Pricing";
 import Quote from "../src/components/sections/Quote";
-import { ResumeSectionFitness } from "../src/components/sections/Resume";
+import ResumeSection from "../src/components/sections/Resume";
 // import RecentWorksFitness from "../src/components/sections/recentWorks/RecentWorksFitness";
 import Services from "../src/components/sections/Services";
-import { SkillsFitness } from "../src/components/sections/Skills";
+import Skills from "../src/components/sections/Skills";
 import Testimonials from "../src/components/sections/Testimonials";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Work from "../src/components/Work";
@@ -74,12 +74,7 @@ const animationText = ["Personal Trainer", "Body builder", "Fitness Trainer"];
 
 const Index5 = () => {
   return (
-    <Layout
-      bg={"img"}
-      bgImgUrl="images/bg3.jpg"
-      animationIn={"rollIn"}
-      animationOut={"rollOut"}
-    >
+    <Layout bg={"img"} bgImgUrl="images/bg3.jpg">
       <Head>
         <link rel="stylesheet" href="css/new-skin/new-skin.css" />
         <link rel="stylesheet" href="css/demos/demo-5-colors.css" />
@@ -87,16 +82,12 @@ const Index5 = () => {
       <Header noSideBarBtn menus={headerMenus} animationText={animationText} />
       <Home>
         <div className="profile no-photo">
-          {/* profile image */}
           <div
             className="slide"
             style={{ backgroundImage: "url(images/profile4.jpg)" }}
           />
-          {/* profile titles */}
           <div className="title">Daniel Wilson</div>
           <TypingAnimation data={animationText} />
-
-          {/* profile socials */}
           <div className="social">
             <a target="_blank" rel="noreferrer" href="https://instagram.com/">
               <span className="fa fa-instagram" />
@@ -111,7 +102,6 @@ const Index5 = () => {
               <span className="fa fa-spotify" />
             </a>
           </div>
-          {/* profile buttons */}
           <div className="lnks">
             <a href="#" className="lnk discover">
               <span className="text">Contact Me</span>
@@ -130,8 +120,8 @@ const Index5 = () => {
           <Quote />
         </About>
         <Resume animationIn={"rollIn"} animationOut={"rollOut"}>
-          <ResumeSectionFitness />
-          <SkillsFitness />
+          <ResumeSection />
+          <Skills />
           <Testimonials />
         </Resume>
         <Work animationIn={"rollIn"} animationOut={"rollOut"}>

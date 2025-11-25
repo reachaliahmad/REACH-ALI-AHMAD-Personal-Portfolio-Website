@@ -10,12 +10,12 @@ import BlogSection from "../src/components/sections/Blog";
 import Clients from "../src/components/sections/Clients";
 import ContactForm from "../src/components/sections/ContactForm";
 import ContactInfo from "../src/components/sections/ContactInfo";
-import { FunFactWriter } from "../src/components/sections/FunFact";
+import FunFact from "../src/components/sections/FunFact";
 import Pricing from "../src/components/sections/Pricing";
 import Quote from "../src/components/sections/Quote";
-import { ResumeSectionWritter } from "../src/components/sections/Resume";
+import ResumeSection from "../src/components/sections/Resume";
 import Services from "../src/components/sections/Services";
-import { SkillsWritter } from "../src/components/sections/Skills";
+import Skills from "../src/components/sections/Skills";
 import Testimonials from "../src/components/sections/Testimonials";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Work from "../src/components/Work";
@@ -111,13 +111,13 @@ const Index7 = () => {
           <AboutMe bio={bio} />
           <Services serviceList={serviceList} />
           <Pricing />
-          <FunFactWriter />
+          <FunFact />
           <Clients />
           <Quote />
         </About>
         <Resume>
-          <ResumeSectionWritter />
-          <SkillsWritter />
+          <ResumeSection />
+          <Skills />
           <Testimonials />
         </Resume>
         <Work>

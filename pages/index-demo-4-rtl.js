@@ -13,10 +13,9 @@ import ContactInfo from "../src/components/sections/ContactInfo";
 import FunFact from "../src/components/sections/FunFact";
 import Pricing from "../src/components/sections/Pricing";
 import Quote from "../src/components/sections/Quote";
-import { ResumeSectionFitness } from "../src/components/sections/Resume";
-// import RecentWorksFitness from "../src/components/sections/recentWorks/RecentWorksFitness";
+import ResumeSection from "../src/components/sections/Resume";
 import Services from "../src/components/sections/Services";
-import { SkillsFitness } from "../src/components/sections/Skills";
+import Skills from "../src/components/sections/Skills";
 import Testimonials from "../src/components/sections/Testimonials";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Work from "../src/components/Work";
@@ -126,8 +125,8 @@ const Index5 = () => {
           <Quote />
         </About>
         <Resume>
-          <ResumeSectionFitness />
-          <SkillsFitness />
+          <ResumeSection />
+          <Skills />
           <Testimonials />
         </Resume>
         <Work>
