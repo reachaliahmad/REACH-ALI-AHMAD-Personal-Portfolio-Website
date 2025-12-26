@@ -111,7 +111,7 @@ const Skills = () => {
                 <li>
                   <div className="name">MERN Stack Learning</div>
                   <div className="progress p60">
-                    <span>60%</span>
+                    <span>80%</span>
                     <Slice />
                   </div>
                 </li>
@@ -129,6 +129,13 @@ const Skills = () => {
                     <Slice />
                   </div>
                 </li>
+                 <li>
+                  <div className="name">Express/Nodejs</div>
+                  <div className="progress p85">
+                    <span>75%</span>
+                    <Slice />
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -143,6 +150,8 @@ const Skills = () => {
               <ul>
                 <li>Website Hosting</li>
                 <li>Front-end Development</li>
+                 <li>Back-end Development</li>
+                 <li>Mern-Stack Development</li>
                 <li>Digital Marketing Strategies</li>
                 <li>Shopify Store Setup</li>
                 <li>SEO & Social Media Marketing</li>

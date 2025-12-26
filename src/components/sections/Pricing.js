@@ -28,6 +28,7 @@ const Pricing = () => {
                   <li>Shopify Store Setup</li>
                   <li>Basic Digital Marketing</li>
                   <li className="disable">MERN Stack Projects</li>
+                  <li className="disable">Back-End Development</li>
                   <li className="disable">Advanced Ads & SEO</li>
                 </ul>
               </div>
@@ -57,9 +58,10 @@ const Pricing = () => {
               <div className="feature-list">
                 <ul>
                   <li>Front-End Development</li>
+                  <li>Back-End Development</li>
+                  <li>MERN Stack Projects</li>
                   <li>Shopify Full Development</li>
                   <li>Digital Marketing (Full)</li>
-                  <li>MERN Stack Projects</li>
                   <li>SEO & Store Optimization</li>
                 </ul>
               </div>

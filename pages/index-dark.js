@@ -29,10 +29,11 @@ const RecentWorks = dynamic(
   }
 );
 const bio = `<p>
-I’m Ali Ahmad — a Shopify Expert, Digital Marketer, and Front-End Developer (Learning MERN Stack).
+I’m Ali Ahmad — a Shopify Expert, Digital Marketer, and MERN Stack Developer.
 
-I have 1–1.5 years of hands-on experience in Shopify store development, product management, theme customization, and running high-converting digital marketing campaigns. I specialize in creating clean, responsive stores with optimized product pages and effective conversion strategies.
+With 1–1.5 years of hands-on experience, I develop and customize Shopify stores, manage products, and run digital marketing campaigns that convert. I create clean, responsive stores and optimized product pages for maximum impact.
 
+Currently, I’m fully focused on mastering the MERN stack, building real-world projects with MongoDB, Express, React, and Node.js to become a skilled full-stack developer delivering practical and scalable web solutions.
 I’m also a fresh Front-End Developer, currently learning the complete MERN stack to expand my skills in modern web development. I work with HTML, CSS, JavaScript, and React, and I’m actively building projects to master full-stack development.
 </p>`;
 const IndexDark = () => {
